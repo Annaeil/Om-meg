@@ -212,3 +212,41 @@ td {
     font-weight: bold;
 }
 
+.fag{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 40px;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.fagboks{
+    background-color: rgb(214, 111, 145);
+    border-radius: 35px;
+    padding: 40px;
+    text-align: left;
+}
+
+.fagboks:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+.fagboks h2 {
+    color: mistyrose;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.fagboks li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0dce1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fagboks li:hover {
+    color: #ffeef4;
+}

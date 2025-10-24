@@ -44,7 +44,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     background-color: palevioletred;
-    padding: 12px 40px;
+    padding: 12px 20px;
     color: whitesmoke;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     gap: 10px;
@@ -101,14 +101,12 @@ header {
 
 footer {
     background-color: #f8c6d1;
-    /* samme som s1 for en rolig overgang */
     color: white;
     text-align: center;
     font-size: 18px;
     padding: 40px 0;
     border-top-left-radius: 75px;
     border-top-right-radius: 75px;
-    font-family: 'Poppins', sans-serif;
     margin-top: 80px;
 }
 
