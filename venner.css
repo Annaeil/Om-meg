@@ -24,8 +24,8 @@
 
 .familie-boks {
     background: rgba(216, 112, 147, 0.854);
-    padding: 30px;
-    width: auto;
+    padding: 50px;
+    width: 500px;
     border-bottom-left-radius: 75px;
     border-top-right-radius: 75px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -36,9 +36,18 @@
     line-height: 1.6;
     color: white;
 }
+.familie-boks h2 {
+    color: mistyrose
+    margin-bottom: 10px;
+    font-size: 24px;
+}
 
-.familie-boks .bilde{
+.familie-boks.bilde{
     background-image: url(bilder/venner/saba.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* hindrer gjentakelse */
+    overflow: hidden;
 }
 
 .polaroid-gallery {
