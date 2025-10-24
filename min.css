@@ -1,0 +1,117 @@
+/* minimal reset fra nettet */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #fffafc;
+}
+
+
+/* navbar styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: palevioletred;
+    padding: 12px 40px;
+    color: whitesmoke;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.ikon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 1 200px;
+}
+
+.ikon h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ikon img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    flex-shrink: 0;
+}
+
+.lenker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 300px;
+    gap: 10px;
+}
+
+.lenker a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.lenker a:hover {
+    background-color: white;
+    color: palevioletred;
+    transform: scale(1.05);
+}
+
+
+
+/* Foooter*/
+
+footer {
+    background-color: #f8c6d1;
+    /* samme som s1 for en rolig overgang */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+}
+
+footer p {
+    margin: 0;
+}

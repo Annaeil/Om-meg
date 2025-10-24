@@ -1,0 +1,119 @@
+.s1 {
+    background-color: #f8c6d1;
+    color: whitesmoke;
+    width: 100%;
+    padding: 100px 20px 300px 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.innhold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.tekst {
+    max-width: 500px;
+}
+
+.tekst h1 {
+    color: palevioletred;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.tekst h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.tekst p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.bilde img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+
+   /* section 2 style */
+
+
+.s2 {
+    margin-top: -220px;
+    padding: 100px 30px 10px 30px;
+
+}
+
+.rad {
+    display: flex;
+    justify-content: center;  
+    gap: 65px;                
+    margin-bottom: 100px;      
+    flex-wrap: wrap;
+}
+
+.kort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    aspect-ratio: 4 / 3;
+    height: 400px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* hindrer gjentakelse */
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.kort:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+ .skole {
+  background-image: url(bilder/nadderud.jpeg.webp);
+  border-bottom-left-radius: 140px;
+
+}
+
+.familie {
+  background-image: url(bilder/familie/fam.jpeg);
+  border-top-right-radius: 140px;
+
+
+}
+
+.venner {
+  background-image: url(bilder/venner/saba.jpeg);
+  border-bottom-left-radius: 140px;
+
+}
+
+.fritid {
+  background-image: url(bilder/fritid/albi.jpeg);
+  border-top-right-radius: 140px;
+
+  
+}
+
