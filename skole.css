@@ -34,7 +34,7 @@
 }
 
 .kort {
-    background: linear-gradient(145deg, mistyrose 0%, #ffe4ec 100%);
+    background-color: #ffe4ec;
     border-radius: 25px;
     padding: 40px;
     width: 100%;
@@ -60,17 +60,19 @@
     font-weight: 400;
     margin-top: 10px;
     color: #444;
+
 }
+
 
 .kort img {
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: 25px;
     border-radius: 15px;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    transition: transform 0.4s ease;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
 }
 
 .tekst {
