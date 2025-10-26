@@ -20,17 +20,30 @@
     gap: 40px;
     max-width: 1100px;
     margin: 0 auto;
+    align-items: stretch; 
 }
 
 .familie-boks {
     background: rgba(216, 112, 147, 0.854);
     padding: 50px;
     width: 500px;
+    flex: 1 1 500px; 
     border-bottom-left-radius: 75px;
     border-top-right-radius: 75px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
+
+.familie-boks.bilde {
+    background-image: url(bilder/venner/saba.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    order: 2; 
+    min-height: 400px; 
+}
+
 
 .familie-boks p {
     line-height: 1.6;
@@ -42,13 +55,6 @@
     font-size: 24px;
 }
 
-.familie-boks.bilde{
-    background-image: url(bilder/venner/saba.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; /* hindrer gjentakelse */
-    overflow: hidden;
-}
 
 .polaroid-gallery {
     display: grid;
