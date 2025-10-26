@@ -66,7 +66,6 @@
 }
 
 .polaroid {
-    position: relative;
     background: white;
     padding: 10px 10px 50px;
     border-radius: 8px;
@@ -94,7 +93,7 @@
     width: 100%;
     text-align: center;
     font-family: "Shadows Into Light", cursive;
-    font-size: 1rem;
+    font-size: 25px;
     color: #222;
 }
 
@@ -104,15 +103,3 @@
     grid-row: span 2;
 }
 
-
-
-.polaroid:hover {
-    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
-}
-
-
-.stor {
-    grid-column: span 2;
-    grid-row: span 2;
-    width: 100%;
-}
