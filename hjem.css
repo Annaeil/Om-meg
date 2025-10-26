@@ -81,9 +81,8 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* hindrer gjentakelse */
+    background-repeat: no-repeat;
     overflow: hidden;
-    border-radius: 25px;
 }
 
 .kort:hover {
@@ -100,8 +99,6 @@
 .familie {
   background-image: url(bilder/familie/fam.jpeg);
   border-top-right-radius: 140px;
-
-
 }
 
 .venner {

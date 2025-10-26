@@ -22,7 +22,7 @@
 
 .rad {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 40px;
     justify-items: center;
     padding: 40px 20px;
@@ -31,7 +31,7 @@
 }
 
 .kort {
-    background: linear-gradient(135deg, #ffe4ec 0%, #ffd6e3 100%);
+    background-color: #ffd6e3;
     border-radius: 30px;
     padding: 35px;
     width: 100%;
@@ -39,7 +39,6 @@
     text-align: center;
     text-decoration: none;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     min-height: 500px;
     display: flex;
@@ -47,6 +46,7 @@
     gap: 2%;
     justify-content: center;
     overflow: hidden;
+    transition: transform 0.4s ease;
 }
 
 .kort:hover {
@@ -80,7 +80,6 @@
     border-radius: 20px;
     border: 5px solid white;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.4s ease;
 }
 
 .tekst {
@@ -102,16 +101,6 @@
 .tekst p {
     font-size: 18px;
     line-height: 26px;
-}
-
-.bilde img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid whitesmoke;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
 }
 
 .klasse {
@@ -166,7 +155,7 @@
 
 .t1:hover,
 .t2:hover {
-    transform: translateY(-5px);
+    transform: translateY(-20px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -280,4 +269,11 @@ td {
 
 .fagboks li:hover {
     color: #ffeef4;
+}
+
+.s3 h1{
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: palevioletred;
 }
