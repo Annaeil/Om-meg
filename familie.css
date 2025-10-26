@@ -1,17 +1,22 @@
 .s1 {
-    background-color: #f8c6d1;
-    text-align: center;
-    padding: 80px 20px 60px;
-    border-bottom-left-radius: 75px;
+    background-image: url(bilder/familie/fam.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    width: 100%;
+    padding: 180px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 32px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    text-align: center;
+    flex-shrink: 0;
 }
 
-.s1 h1 {
-    color: palevioletred;
-    font-size: 58px;
-    margin-bottom: 40px;
-    font-weight: 700;
-}
 .familie-seksjon {
     background-color: #fffafc;
     padding: 80px 20px;
@@ -26,7 +31,7 @@
     gap: 60px;
     flex-wrap: wrap;
  background-color: #f8c6d1;
-    padding: 30px;
+    padding: 65px;
     border-bottom-left-radius: 75px;
     border-top-right-radius: 75px;
 }
